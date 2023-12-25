@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#keyboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 780px;
+    padding: 5px;
+    border: 2px solid #ccc;
+}
+
+.keys {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 3px;
+    padding: 3px;
+    font-size: 28px;
+}
+
+.pressing {
+    background: lightskyblue;
+}
+
+.relative-block {
+    position: relative;
+}
+
+textarea {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(190px, 25px);
+}
